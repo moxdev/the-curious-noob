@@ -1,10 +1,10 @@
-title: The Curious n00b          
+title: The Curious n00b
 description:      "Blog for Dev Bootcamp"
 disqus_shortname: moxdev
 reading_time:     true
 words_per_minute: 200
 #Your site's domain goes here. Leave localhost server or blank when working locally.
-url: http://moxdev.github.io/  #http://localhost:4000
+url: http://shanebiggs.com/the-curious-noob  #http://localhost:4000
 
 # Owner/author information
 owner:
@@ -14,12 +14,12 @@ owner:
   email:          the.curious.n00b@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   github:  moxdev
-  twitter:  moxbiggs      
+  twitter:  moxbiggs
   facebook:  ShaneRBiggs
-  linkedin:  shanebiggs            
-  stackexchange:        
-  instagram:  the.curious.n00b             
-  tumblr:         
+  linkedin:  shanebiggs
+  stackexchange:
+  instagram:  the.curious.n00b
+  tumblr:
   # For Google Authorship https://plus.google.com/authorship
   # google plus id, include the '+', eg +mmistakes
   google_plus:    +ShaneBiggs
@@ -28,10 +28,10 @@ owner:
 background: witewall_3.png
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   
-google_verify:      
+google_analytics:
+google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
+bing_verify:
 
 # Links to include in top navigation
 # For external links add external: true
@@ -39,9 +39,9 @@ links:
   - title: Projects
     url: /projects
   - title: DBC Basics
-    url: /DBC_basics 
+    url: /DBC_basics
   - title: GitHub
-    url: https://github.com/moxdev
+    url: https://shanebiggs.com/the-curious-noob
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
