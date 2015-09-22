@@ -1,0 +1,49 @@
+ /* Mobile Devices */
+
+/** Tablet view **/
+@media screen and (max-width: 960px){
+  header {
+    font-size: 1.1em;
+    line-height: 40px;
+  }
+  nav li{
+    line-height: 40px;
+  }
+}
+
+  /** Mobile view **/
+@media screen and (max-width: 480px) {
+
+  html {
+    -webkit-text-size-adjust: none;
+  }
+
+  body {
+    font-size: 90%;
+    padding: 10px 8px;
+  }
+
+}
+
+/* Mobile*/
+
+@media only screen and (max-width: 640px) {
+  
+  body{
+    padding: 0;
+    text-align: center;
+    display:block;
+    
+  }
+
+
+  footer {
+    position:relative;
+    display:block;
+    width:100%;
+    right:0;
+    text-align: center;
+    border-radius:0;
+  }
+
+}

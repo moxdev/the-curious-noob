@@ -1,0 +1,177 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: circle;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/* -----------------------------------------------
+            My Custom Code                        */
+
+
+body {
+  background-color: #79B8F7;
+  font-family: Verdana, Arial, Sans-Serif;
+}
+
+nav {
+  text-align: right;
+  font-size: 150%;
+  background-color: #FFFFFF;
+  height: auto;
+  padding-top: -20px;
+  
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 8px 0;
+  height: auto;
+  text-decoration: none;
+}
+
+nav li {
+  display: inline;
+  padding: 20px;
+  
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 8px 8px 8px;
+}
+
+.links a:link {color: #79B8F7;}
+.links a:visited {color: #79B8F7;}
+.links a:hover {color: #000000;}
+.links a:focus {color: #324AB2;}
+.links a:active {color: #009900;}
+
+
+#container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  
+
+}
+
+h1 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 300%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+
+}
+
+#welcome {
+  text-align: center;
+  color: #ffffff;
+  font-size: 150%;
+  padding-top: 50px;
+
+}
+
+
+#code {
+  color: #ffffff;
+  font-size: 150%;
+  padding-top: 60px;
+  margin-left: 200px;
+  line-height: 150%;
+
+}
+
+#code ul li {
+list-style: disc outside none;
+display: list-item;
+margin-left: 2em;
+}
+
+
+#follow {
+  text-align: center;
+  color: #ffffff;
+  font-size: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+ } 
+
+#copy {
+  color: #ffffff;
+  text-align: left;
+  margin-left: 10px;
+  padding-top: 50px;
+  position: relative;
+
+}
+
+footer {
+  width:100%;
+  height:auto;
+  position:fixed;
+  bottom:0;
+  left:0;
+  font-family: none;
+  clear: both;
+  /* background-color: #696969; */
+}
+
+#social {
+  text-align: right;
+  margin-right: 10px;
+  padding-top: 5px;
+}
+
+
+/*  border: 2px solid red; */
+
+/* --------------------------------------- 
+
